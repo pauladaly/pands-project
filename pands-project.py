@@ -19,6 +19,9 @@ print (iris.columns)
 # How many Flowers for each Species?
 iris["species"].value_counts()
 
+# View a table display of the data for first 30 entries
+print(iris.head(30))
+
 # Show statistic summary of Iris data set
 iris.describe()
 

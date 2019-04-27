@@ -22,10 +22,23 @@ Four features were measured from each flower sample
 3.	Length of the sepal in cm
 4.	Width of the sepal in cm
  
+![](Images/iris.png)
+
 The fifth column in the data set is the species of the flower observed.
 Analysis of the Iris Data Set
 
-How to run the code etc.
+# Analysis of the Iris Data Set
+Instructions for loading the data set:
+Import Libraries
+Load data set
+•	Use pandas to load the data
+•	Use pandas to explore the data 
+![Scatter Results](Images/Scatter.png)
+![Scatter Results in Colour](Images/ColourScatter.png)
+![Pair-Plot Results](Images/PairPlot.png)
+
+## Summarize the data set
+
 # Conclusion
 
 # References

@@ -19,6 +19,9 @@ print (iris.columns)
 # How many Flowers for each Species?
 iris["species"].value_counts()
 
+# Show statistic summary of Iris data set
+iris.describe()
+
 # 2-D Scatter Plot
 iris.plot(kind='scatter', x='sepal_length', y='sepal_width');plt.show()
 
@@ -36,3 +39,5 @@ iris.plot(kind='scatter', x='sepal_length', y='sepal_width');plt.show()
 sns.set_style("whitegrid");
 sns.pairplot(iris, hue="species", size=3);
 plt.show()
+
+

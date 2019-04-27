@@ -57,19 +57,19 @@ This showed that there are 150 instances and 5 attributes within the data set.
 ### 4.3.2 The Data
 To get an idea of what the data set looked like I wanted to view the column names, the types of species within the dataset and I wanted to take a look at the data set in a table view for the first 30 data set entries, to do this the code I used was.
 
-Column Names within the data set:
+**Column Names within the data set**
 
 ![](Images/ColumnNamesCode.PNG) 
 
 ![](Images/ColumnNamesOutput.PNG) 
 
-Types of Species and their count within the data set:
+**Types of Species and their count within the data set**
 
 ![](Images/SpeciesCode.PNG) 
 
-![](ImagesSpeciesOuput.PNG) 
+![](Images/SpeciesOuput.PNG) 
 
-Table view of the first 30 entries on the data set:
+**Table view of the first 30 entries on the data set**
 
 ![](Images/First30code.PNG) 
 

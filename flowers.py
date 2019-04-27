@@ -10,11 +10,5 @@ url = 'https://github.com/pauladaly/pands-project.git/iris.csv'
 # load iris.csv into pandas dataframe
 iris = pd.read_csv("iris.csv")
 
-# Data Points and features
-print (iris.shape)
-
-# Column names in the dataset
-print (iris.columns)
-
 # How many Flowers for each Species?
-iris["species"].value_counts()
+iris['species'].value_counts()

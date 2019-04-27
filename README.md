@@ -33,19 +33,19 @@ To complete the analysis for this project I imported the following modules, func
 
 ![](Images/Libraries.PNG)
 
-#4.2 Instructions for loading the data set
+##4.2 Instructions for loading the data set
 For this project I saved the Iris Data Set to my GitHub Repository and read the file from there.
 
 ![](Images/DataSet.PNG)
 
-#4.3 Summary of the Data Set
+##4.3 Summary of the Data Set
 To review the data within the data set I looked at the data in different ways:
 1. Dimensions of the dataset
 2. Viewed the data 
 3. Statistical summary of all the attributes
 4. Breakdown of the data by the class variable
 
-4.3.1 Dimensions of the dataset
+###4.3.1 Dimensions of the dataset
 Ran the following python code to view the dimensions of the data set.
 
 ![](Images/Shape.PNG) 
@@ -54,7 +54,7 @@ This showed that there are 150 instances and 5 attributes within the data set.
 
 ![](Images/ShapeResult.PNG) 
 
-4.3.2 The Data
+###4.3.2 The Data
 To get an idea of what the data set looked like I wanted to view the column names, the types of species within the dataset and I wanted to take a look at the data set in a table view for the first 30 data set entries, to do this the code I used was.
 
 Column Names within the data set:
@@ -75,7 +75,7 @@ Table view of the first 30 entries on the data set:
 
 ![](First30code.PNG) 
 
-4.3.3 Statistical Summary
+###4.3.3 Statistical Summary
 Ran the following python code 
 
 ![](Images/Stats.PNG) 
@@ -84,19 +84,20 @@ The Python Code outputted the following:
 
 ![](Images/StatisticSummary.PNG) 
 
-4.3.4 Breakdown of the data by the class variable
+###4.3.4 Breakdown of the data by the class variable
 
 
- ![](Images/StatisticSummary.PNG) 
+ 
+
 ![Scatter Results](Images/Scatter.png)
 ![Scatter Results in Colour](Images/ColourScatter.png)
 ![Pair-Plot Results](Images/PairPlot.PNG)
 
-## Summarize the data set
+#5 Summarize the data set
 
-# Conclusion
+#6 Conclusion
 
-# References
+#7 References
 1.	Wikipedia: Iris flower data set (https://en.wikipedia.org/wiki/Iris_flower_data_set)
 2.	Your First Machine Learning Project in Python Step-By-Step (https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
 3.	+20 ML Algorithms +15 Plot for Beginners (https://www.kaggle.com/mjbahmani/20-ml-algorithms-15-plot-for-beginners)

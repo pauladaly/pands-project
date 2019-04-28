@@ -103,19 +103,19 @@ The out put shows the break down of the iris data set.
 
 I then wanted to see the staticstic for each species within the data set, this is what I ran to view this detail.
 
-![](StatsDetailsCode.PNG) 
+![](Images/StatsDetailsCode.PNG) 
 
 The statistical details for the Iris species Setosa are:
 
-![](StatSetosaOutput.PNG) 
+![](Images/StatSetosaOutput.PNG) 
 
 The statistical details for the Iris species Versicolor are:
 
-![](StatVersicolorOutput.PNG) 
+![](Images/StatVersicolorOutput.PNG) 
 
 The statistical details for the Iris species Virginica are:
 
-![](StatVirginicaOutput.PNG) 
+![](Images/StatVirginicaOutput.PNG) 
 
 ### 4.3.4 Patterns within the data set
 

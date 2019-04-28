@@ -28,24 +28,42 @@ The fifth column in the data set is the species of the flower observed.
 Analysis of the Iris Data Set
 
 # 4 Analysis of the Iris Data Set
-## 4.1 Importing Libraries
+
+## 4.1 Running to Code for Iris Data Set Project
+**How to download the repository for this project:**
+
+1. Go to GitHub
+2. Project repository URL for Project 2019 is: https://github.com/pauladaly/pands-project.git
+3. Click the download button
+
+**How to run the code**
+
+1. Have python installed on your system - I have Python 3.7 downloaded from https://www.anaconda.com/download/
+2. Have Cmder installed on your system to run the command line -  can be downloaded from https://cmder.net/
+3. Open the code on Visual Studio - can be downloaded from https://code.visualstudio.com/download
+4. Open Cmder
+5. On the command line enter the following to run each solution:
+    - pands-project.py
+6. Alternatively the code can be ran through the ipython terminal on Visula Studio
+
+## 4.2 Importing Libraries
 To complete the analysis for this project I imported the following modules, functions and objects:
 
 ![](Images/Libraries.PNG)
 
-## 4.2 Importing the data set
+## 4.3 Importing the data set
 For this project I saved the Iris Data Set to my GitHub Repository and read the file from there using the Pandas package in python and used the read_csv() function.
 
 ![](Images/DataSet.PNG)
 
-## 4.3 Summary of the Data Set
+## 4.4 Summary of the Data Set
 To review the data within the data set I looked at the data in different ways:
 1. Dimensions of the dataset
 2. Viewed the data 
 3. Statistical summary of all the attributes
 4. Patterns within the data set
 
-### 4.3.1 Dimensions of the dataset
+### 4.4.1 Dimensions of the dataset
 To get a better understanding of the amount of data that was within the data set I ran the following python code to view the dimensions of the data set.
 
 ![](Images/Shape.PNG) 
@@ -54,7 +72,7 @@ This showed that there are 150 instances and 5 attributes within the data set.
 
 ![](Images/ShapeResult.PNG) 
 
-### 4.3.2 The Data
+### 4.4.2 The Data
 To get an idea of what the data set looked like I wanted to view the column names, the types of species within the dataset and I wanted to take a look at the data set in a table view for the first 30 data set entries and for a random sample of 20 entires. To get this information I ran the following code to get the outputs.
 
 **Column Names within the data set**
@@ -91,7 +109,7 @@ The result of print(iris.sample(20)) provided me with a selection of each specie
 
 ![](Images/SampleOutput.PNG)
 
-### 4.3.3 Statistical Summary
+### 4.4.3 Statistical Summary
 
 To get the basic statistics for the iris data set I ran the .describe() method from pandas.
 
@@ -117,14 +135,24 @@ The statistical details for the Iris species Virginica are:
 
 ![](Images/StatVirginicaOutput.PNG) 
 
-### 4.3.4 Patterns within the data set
+### 4.4.4 Patterns within the data set
+To explore the Iris data set even further I wanted to visually see if there was any patterns within the data set.
+I created a 2D scatter diagram from the .plot library in pandas where I plotted the sepal_length (x axis) against the sepal_width (y axis)
+
+![](Images/2DScatter.png)
+
+![](Images/Scatter.png)
+
+It was hard to distinguish between each species on the 2D scatter diagram so I then added colour codeing and a Legend to it using the FacetGrid from the seaborn library.
+
+![](Images/2DScatterColour.png)
+
+![](Images/ColourScatter.png)
+
+I also used the pairplot feature from the seaborn library, which showed the bivariative relation between each of the species.
 
 
- 
-
-![Scatter Results](Images/Scatter.png)
-![Scatter Results in Colour](Images/ColourScatter.png)
-![Pair-Plot Results](Images/PairPlot.PNG)
+![](Images/PairPlot.PNG)
 
 # 5 Summarize the data set
 
@@ -138,4 +166,4 @@ The statistical details for the Iris species Virginica are:
 5. Markdown Cheat sheet (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 6. Python Exloratory Data Analysis Tutorial (https://www.datacamp.com/community/tutorials/exploratory-data-analysis-pytho)
 7. 10 minutes to pandas (https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
-
+8. PairPlot (https://seaborn.pydata.org/generated/seaborn.pairplot.html)

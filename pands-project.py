@@ -32,15 +32,15 @@ print(iris.sample(20))
 iris.describe()
 
 # Statistics for each Species
-## setosa
+## Details for setosa
 setosa=iris[iris['species']=='setosa']
 print(setosa.describe())
 
-## versicolor
+## Details for versicolor
 versicolor =iris[iris['species']=='versicolor']
 print(versicolor.describe())
 
-## virginica
+## Details for virginica
 virginica =iris[iris['species']=='virginica']
 print(virginica.describe())
 
@@ -51,15 +51,16 @@ iris.plot(kind='scatter', x='sepal_length', y='sepal_width');plt.show()
 # Using sns from seaborn
 
 sns.set_style("whitegrid");
-sns.FacetGrid(iris, hue="species", size=4) \
+sns.FacetGrid(iris, hue="species", height=4) \
     .map(plt.scatter, "sepal_length", "sepal_width") \
     .add_legend();
 plt.show();    
 
 # Pair-Plot
-iris.plot(kind='scatter', x='sepal_length', y='sepal_width');plt.show()
-sns.set_style("whitegrid");
-sns.pairplot(iris, hue="species", size=3);
+## Scatterplots for joint relationships and histograms for univariate distributions
+sns.pairplot(iris)
 plt.show()
 
-
+## Show different levels of a categorical variable by the color of plot elements:
+sns.pairplot(iris, hue="species")
+plt.show()

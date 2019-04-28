@@ -26,8 +26,23 @@ print(iris.head(30))
 
 print(iris.sample(20))
 
+
 # Show statistic summary of Iris data set
+
 iris.describe()
+
+# Statistics for each Species
+## setosa
+setosa=iris[iris['species']=='setosa']
+print(setosa.describe())
+
+## versicolor
+versicolor =iris[iris['species']=='versicolor']
+print(versicolor.describe())
+
+## virginica
+virginica =iris[iris['species']=='virginica']
+print(virginica.describe())
 
 # 2-D Scatter Plot
 iris.plot(kind='scatter', x='sepal_length', y='sepal_width');plt.show()

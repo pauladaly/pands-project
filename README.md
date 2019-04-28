@@ -1,5 +1,5 @@
 # 1 Introduction
-This Git Hub repository contains all the files created during my completion of the Programming and Scripting Project 2019 as part of the H.Dip in Data Analytics.  This README contains a summary and my investigations into Fisher’s Iris data set.
+This GitHub repository contains all the files created during my completion of the Programming and Scripting Project 2019 as part of the H.Dip in Data Analytics.  This README contains a summary and my investigations into Fisher’s Iris data set.
 
 # 2 Project Objective
 The objective of this project is to research Fisher’s Iris data set and write documentation and code in the Python programing language based on the research carried out.  The outline for this project is:
@@ -43,7 +43,7 @@ To review the data within the data set I looked at the data in different ways:
 1. Dimensions of the dataset
 2. Viewed the data 
 3. Statistical summary of all the attributes
-4. Breakdown of the data by the class variable
+4. Patterns within the data set
 
 ### 4.3.1 Dimensions of the dataset
 To get a better understanding of the amount of data that was within the data set I ran the following python code to view the dimensions of the data set.
@@ -87,20 +87,37 @@ To get a feel for the data set I wanted to view a sample of the data, to do this
 
 ![](Images/SampleCode.PNG) 
 
-the result of print(iris.sample(20)) provided me with a selection of each species rather than just the first 30 records which i got back when I used the head function and all these records were only for the species setosa. 
+The result of print(iris.sample(20)) provided me with a selection of each species rather than just the first 30 records which i got back when I used the head function and all these records were only for the species setosa. 
 
 ![](Images/SampleOutput.PNG)
 
 ### 4.3.3 Statistical Summary
-Ran the following python code 
+
+To get the basic statistics for the iris data set I ran the .describe() method from pandas.
 
 ![](Images/Stats.PNG) 
 
-The Python Code outputted the following:
+The out put shows the break down of the iris data set.
 
 ![](Images/StatisticSummary.PNG) 
 
-### 4.3.4 Breakdown of the data by the class variable
+I then wanted to see the staticstic for each species within the data set, this is what I ran to view this detail.
+
+![](StatsDetailsCode.PNG) 
+
+The statistical details for the Iris species Setosa are:
+
+![](StatSetosaOutput.PNG) 
+
+The statistical details for the Iris species Versicolor are:
+
+![](StatVersicolorOutput.PNG) 
+
+The statistical details for the Iris species Virginica are:
+
+![](StatVirginicaOutput.PNG) 
+
+### 4.3.4 Patterns within the data set
 
 
  
@@ -120,5 +137,5 @@ The Python Code outputted the following:
 4. Youtube Channel: Applied AI Course (https://www.youtube.com/channel/UCJINtWke3-FMz2WuEltWDVQ)
 5. Markdown Cheat sheet (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 6. Python Exloratory Data Analysis Tutorial (https://www.datacamp.com/community/tutorials/exploratory-data-analysis-pytho)
-
+7. 10 minutes to pandas (https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
 

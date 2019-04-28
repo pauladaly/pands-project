@@ -33,8 +33,8 @@ To complete the analysis for this project I imported the following modules, func
 
 ![](Images/Libraries.PNG)
 
-## 4.2 Instructions for loading the data set
-For this project I saved the Iris Data Set to my GitHub Repository and read the file from there.
+## 4.2 Importing the data set
+For this project I saved the Iris Data Set to my GitHub Repository and read the file from there using the Pandas package in python and used the read_csv() function.
 
 ![](Images/DataSet.PNG)
 
@@ -46,7 +46,7 @@ To review the data within the data set I looked at the data in different ways:
 4. Breakdown of the data by the class variable
 
 ### 4.3.1 Dimensions of the dataset
-Ran the following python code to view the dimensions of the data set.
+To get a better understanding of the amount of data that was within the data set I ran the following python code to view the dimensions of the data set.
 
 ![](Images/Shape.PNG) 
 
@@ -55,7 +55,7 @@ This showed that there are 150 instances and 5 attributes within the data set.
 ![](Images/ShapeResult.PNG) 
 
 ### 4.3.2 The Data
-To get an idea of what the data set looked like I wanted to view the column names, the types of species within the dataset and I wanted to take a look at the data set in a table view for the first 30 data set entries, to do this the code I used was.
+To get an idea of what the data set looked like I wanted to view the column names, the types of species within the dataset and I wanted to take a look at the data set in a table view for the first 30 data set entries and for a random sample of 20 entires. To get this information I ran the following code to get the outputs.
 
 **Column Names within the data set**
 
@@ -74,6 +74,12 @@ To get an idea of what the data set looked like I wanted to view the column name
 ![](Images/First30code.PNG) 
 
 ![](Images/First30code.PNG) 
+
+**Sample of 20 entries within the data set**
+
+![](Images/SampleCode.PNG) 
+
+![](Images/SampleOutput.PNG)
 
 ### 4.3.3 Statistical Summary
 Ran the following python code 
@@ -103,5 +109,6 @@ The Python Code outputted the following:
 3.	+20 ML Algorithms +15 Plot for Beginners (https://www.kaggle.com/mjbahmani/20-ml-algorithms-15-plot-for-beginners)
 4. Youtube Channel: Applied AI Course (https://www.youtube.com/channel/UCJINtWke3-FMz2WuEltWDVQ)
 5. Markdown Cheat sheet (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+6. Python Exloratory Data Analysis Tutorial (https://www.datacamp.com/community/tutorials/exploratory-data-analysis-pytho)
 
 

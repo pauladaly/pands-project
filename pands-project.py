@@ -22,6 +22,10 @@ iris["species"].value_counts()
 # View a table display of the data for first 30 entries
 print(iris.head(30))
 
+# View a sample of 20 records within the data
+
+print(iris.sample(20))
+
 # Show statistic summary of Iris data set
 iris.describe()
 

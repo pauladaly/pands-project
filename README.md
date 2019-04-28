@@ -61,23 +61,33 @@ To get an idea of what the data set looked like I wanted to view the column name
 
 ![](Images/ColumnNamesCode.PNG) 
 
+By using (iris.columns) from pandas I can see the names of all the columns within the data set
+
 ![](Images/ColumnNamesOutput.PNG) 
 
 **Types of Species and their count within the data set**
 
 ![](Images/SpeciesCode.PNG) 
 
+iris["species"]Value_counts() shows me that there are 3 different species and 50 rows of data for each species.
+
 ![](Images/SpeciesOuput.PNG) 
 
 **Table view of the first 30 entries on the data set**
 
-![](Images/First30code.PNG) 
+To see the data in a table format I used print(iris.head(30)) to view the first 30 records.
 
 ![](Images/First30code.PNG) 
+
+![](Images/First30Output.PNG) 
 
 **Sample of 20 entries within the data set**
 
+To get a feel for the data set I wanted to view a sample of the data, to do this I used the sample function.
+
 ![](Images/SampleCode.PNG) 
+
+the result of print(iris.sample(20)) provided me with a selection of each species rather than just the first 30 records which i got back when I used the head function and all these records were only for the species setosa. 
 
 ![](Images/SampleOutput.PNG)
 

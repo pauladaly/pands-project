@@ -151,14 +151,17 @@ It was hard to distinguish between each species on the 2D scatter diagram so I t
 
 I also used the pairplot feature from the seaborn library, which showed the bivariative relation between each of the species.
 
+This first pairplot shows the joint relationships and histograms for univariate distributions
 
-![](Images/PairPlot.PNG)
+![](Images/Figure_1.png)
 
-# 5 Summarize the data set
+The second pairplot shows the different levels of a categorical variable by the color of plot elements
 
-# 6 Conclusion
+![](Images/Figure_2.png)
 
-# 7 References
+# 5 Conclusion
+
+# 6 References
 1.	Wikipedia: Iris flower data set (https://en.wikipedia.org/wiki/Iris_flower_data_set)
 2.	Your First Machine Learning Project in Python Step-By-Step (https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
 3.	+20 ML Algorithms +15 Plot for Beginners (https://www.kaggle.com/mjbahmani/20-ml-algorithms-15-plot-for-beginners)

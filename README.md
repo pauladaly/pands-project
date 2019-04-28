@@ -11,12 +11,13 @@ The objective of this project is to research Fisher’s Iris data set and write 
 6. Include supporting tables and graphics.
 
 # 3 About the Iris Data Set
-The Iris flower data set or Fisher’s Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper “The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis”. This is a very famous and widely used dataset by everyone trying to learn machine learning and statistics. The data set consists of 50 samples from each of three species of the Iris flower 
-•	Iris Versicolor 
-•	Iris Virginica 
-•	Iris Setosa
+The Iris flower data set or Fisher’s Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper “The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis”. This is a very famous and widely used dataset by everyone trying to learn machine learning and statistics. The data set consists of 50 samples from each of three species of the Iris flower     
+  - Iris Versicolor 
+  - Iris Virginica 
+  - Iris Setosa
 
 Four features were measured from each flower sample 
+
 1.	Length of the petal in cm
 2.	Width of the petal in cm
 3.	Length of the sepal in cm
@@ -159,7 +160,17 @@ The second pairplot shows the different levels of a categorical variable by the 
 
 ![](Images/Figure_2.png)
 
-# 5 Conclusion
+# 5 Summary and Findings 
+In this project I used python and the libraries within Python to research the Iris data set.
+The data set is easily obtained on the internet in a .csv format.  I saved a copy of the data set into my GitHub repository before I started review the data set.
+
+To begin researching the data set I worked out the dimensions of the dataset, the data set contained 5 attributes and 150 instances.  To picture the data better I checked for the names of the columns within the data set. To analyse the data set further I went on to check the amount of different species of Iris that were in the dataset and the count of instances each species had within the data set.
+
+I viewed the first 30 entries of the data set to get an idea of what values were found for the length and width of the sepals and petals of each iris species that the data was captured for. The first 30 entries only showed results for the Iris Setosa.  To get a better feel for the data I worked on returning a sample of 20 records within the data set so I could also see results for the Iris Virginica and Iris Versicolor.
+
+By using the simple describe() function I found detailed statistics for the data set, this included the min, max and mean for the petals length and width and the sepals length and width.  I also used this function to find these details for each of species within the data set.
+
+The use of Mathplotlib and Seaborn in my research helped me visualize the data and to view patterns within the data set.  The pairplot is where I found I could visually see the differences between each of the species of Iris.
 
 # 6 References
 1.	Wikipedia: Iris flower data set (https://en.wikipedia.org/wiki/Iris_flower_data_set)
